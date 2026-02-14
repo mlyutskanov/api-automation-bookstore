@@ -2,7 +2,11 @@ name: API Automation Tests
 
 on:
   push:
+    branches: [ main, develop ]
   pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 jobs:
