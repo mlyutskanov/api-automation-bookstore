@@ -1,0 +1,42 @@
+@"
+# Compiled class files
+*.class
+target/
+
+# Log files
+*.log
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Test outputs
+test-output/
+allure-results/
+allure-report/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+
+# Sensitive data
+*.env
+config.properties
+"@ | Out-File -FilePath ".gitignore" -Encoding UTF8
