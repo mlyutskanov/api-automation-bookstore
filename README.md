@@ -242,7 +242,7 @@ The pipeline automatically runs on:
 
 Reports are automatically deployed to:
 ```
-[https://github.com/mlyutskanov/api-automation-bookstore](https://mlyutskanov.github.io/api-automation-bookstore/)
+[https://mlyutskanov.github.io/api-automation-bookstore/](https://mlyutskanov.github.io/api-automation-bookstore/)
 ```
 
 **To enable GitHub Pages:**
